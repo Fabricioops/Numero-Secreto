@@ -4,7 +4,7 @@ titulo.innerHTML='Jogo do número secreto';
 let paragrafo = document.querySelector('p');
 paragrafo.innerHTML = 'Escolha um numero entre 1 e 100';
 
-let numeroLimite = 40;
+let numeroLimite = 50;
 let listaDeNumerosSorteados = [];
 let  numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 0;
